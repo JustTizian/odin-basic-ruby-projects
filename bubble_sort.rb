@@ -7,13 +7,13 @@ def bubble_sort(array)
       
       next_element = array[idx + 1]
       unless next_element == nil
+        
         if element > next_element
-          
           array[idx] = next_element
           array[idx + 1] = element
           no_swap_was_perfomed = false
-          p array
         end
+        
       end
     end
   end
